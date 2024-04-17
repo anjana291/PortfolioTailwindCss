@@ -3,7 +3,7 @@ import React from 'react'
 function Header() {
   return (
     <>
-    <nav className='flex justify-between bg-black text-white p-4'>
+    <nav className='flex fixed top-0 w-full justify-between bg-black text-white'>
         <div>
             <a href='/'><img src="/src/assets/logo.png" alt="" style={{height:'70px',width:'70px'}}/></a>
         </div>
