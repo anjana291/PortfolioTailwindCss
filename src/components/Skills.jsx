@@ -45,7 +45,7 @@ function Skills() {
         </div>
         <div className='text-white'>
           <Card style={{ width: '8rem'}}>
-            <Card.Img variant="top" src="./src/assets/reactlogo.png" className='mt-4 w-full h-auto grayscale transition duration-500 ease-in-out transform hover:grayscale-0 hover:scale-110'/>
+            <Card.Img variant="top" src={"./src/assets/reactlogo.png"} className='mt-4 w-full h-auto grayscale transition duration-500 ease-in-out transform hover:grayscale-0 hover:scale-110'/>
             {/* className="w-full h-auto grayscale transition duration-500 ease-in-out transform hover:grayscale-0 hover:scale-110" */}
             <Card.Body>
               <Card.Title className='font-bold text-2xl mt-3 flex items-center justify-center'>React</Card.Title>
