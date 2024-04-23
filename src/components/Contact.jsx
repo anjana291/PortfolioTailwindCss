@@ -45,11 +45,7 @@ function Contact() {
             color: 'white' 
           }
         }}
-        inputProps={{
-          style: {
-            color: 'white' 
-          }
-        }}  className='w-8/12'/>
+      className='w-8/12'/>
 
 <div className='mt-5'>
             <TextField id="outlined-basic" label="Enter Your Email" variant="outlined" 
@@ -63,11 +59,7 @@ function Contact() {
                 color: 'white' 
               }
             }}
-            inputProps={{
-              style: {
-                color: 'white' 
-              }
-            }}  className='w-8/12 mt-5'/>
+              className='w-8/12 mt-5'/>
 </div>
        <div className='mt-5'>
            <TextField
@@ -86,11 +78,7 @@ function Contact() {
                   color: 'white' 
                 }
               }}
-              inputProps={{
-                style: {
-                  color: 'white' 
-                }
-              }}
+              
               className='w-8/12'/>
        </div>
           <button className='bg-orange-500 w-40 h-10 flex justify-center items-center rounded-lg mt-5' >Send Message</button>          

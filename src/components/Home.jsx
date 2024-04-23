@@ -1,5 +1,6 @@
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from '@mui/material'
 import React from 'react'
 import Typewriter from 'typewriter-effect'
 
@@ -24,7 +25,7 @@ function Home() {
              <p className='text-lg ml-5 px-10 text-justify'>I'm a front-end developer passionate about crafting beautiful and intuitive web experiences. With expertise in HTML, CSS, and JavaScript, I specialize in turning ideas into polished and user-friendly websites. Let's build something amazing together!.</p>
             </div>
             <button className='bg-orange-500 rounded py-2 px-4 mt-10 text-white mx-auto'>View My Works</button>
-            <button className='py-2 px-4 mt-10 underline text-orange-500 mx-auto ml-4'>Contact Me <FontAwesomeIcon icon={faArrowDown} className='text-orange-500 ml-2' /></button>
+            <Link><button className='py-2 px-4 mt-10 underline text-orange-500 mx-auto ml-4'>Contact Me <FontAwesomeIcon icon={faArrowDown} className='text-orange-500 ml-2' /></button></Link>
         </div>
         <div className='flex justify-center items-center mt-6'>
             <div className='w-96 h-96 rounded-full bg-orange-500 flex justify-center items-center'>
