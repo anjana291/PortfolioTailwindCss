@@ -5,7 +5,7 @@ import Card from 'react-bootstrap/Card';
 function Portfolio() {
   return (
     <>
-      <div className='mt-52'>
+      <div className='mt-52' id='portfolio'>
         <h1 className='list text-4xl text-white flex items-center justify-center'>My <span className='ml-3 text-orange-500'>Portfolio</span></h1>
         <div className='grid sm:grid-cols-3 gap-4 mt-10 py-5 ml-20'>
           <div className='text-white'>

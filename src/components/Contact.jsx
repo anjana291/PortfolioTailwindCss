@@ -3,11 +3,10 @@ import TextField from '@mui/material/TextField';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faPhone,faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
-
 function Contact() {
   return (
     <>
-    <div className='mt-20 mb-20'>
+    <div className='mt-20 mb-20' id='contact'>
     <h1 className='list text-4xl text-white flex items-center justify-center'>Contact <span className='ml-3 text-orange-500'>Me</span></h1>
         <div className='grid sm:grid-cols-2 gap-4 mt-10 ml-16'>
             <div className='text-white w-full ml-48'>
@@ -28,61 +27,71 @@ function Contact() {
             <h4>Udayamperoor P.O</h4>
             <h4>Ernakulam, Kerala</h4>
             </div>
+            </div>           
             </div>
-
-
-                                
-            </div>
+            
             <div className='w-full'>
             <TextField id="outlined-basic" label="Enter Your Name" variant="outlined" 
-         sx={{
-          '& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline': {
-            borderColor: 'white' 
-          }
-        }}
-        InputLabelProps={{
-          style: {
-            color: 'white' 
-          }
-        }}
-      className='w-8/12'/>
-
-<div className='mt-5'>
-            <TextField id="outlined-basic" label="Enter Your Email" variant="outlined" 
              sx={{
               '& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline': {
                 borderColor: 'white' 
               }
-            }}
+            }} 
             InputLabelProps={{
               style: {
                 color: 'white' 
               }
             }}
-              className='w-8/12 mt-5'/>
-</div>
-       <div className='mt-5'>
-           <TextField
-              id="outlined-multiline-static"
-              label="Enter Your Message"
-              multiline
-              rows={4}
-              defaultValue=""
-              sx={{
+            inputProps={{
+              style: {
+                color: 'white' 
+              }
+            }} className='w-8/12'/>             
+
+            <div className='mt-4'>
+              <TextField id="outlined-basic" label="Enter Your Email" variant="outlined" 
+               sx={{
                 '& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline': {
                   borderColor: 'white' 
                 }
-              }}
+              }} 
               InputLabelProps={{
                 style: {
                   color: 'white' 
                 }
               }}
-              
-              className='w-8/12'/>
-       </div>
-          <button className='bg-orange-500 w-40 h-10 flex justify-center items-center rounded-lg mt-5' >Send Message</button>          
-        </div>
+              inputProps={{
+                style: {
+                  color: 'white' 
+                }
+              }} className='w-8/12'/>
+            </div>
+
+            <div className='mt-4'>
+            <TextField id="outlined-basic" label="Enter Your Name" variant="outlined" 
+            multiline
+            rows={4}
+            defaultValue=""
+               sx={{
+                '& .MuiOutlinedInput-root .MuiOutlinedInput-notchedOutline': {
+                  borderColor: 'white' 
+                }
+              }} 
+              InputLabelProps={{
+                style: {
+                  color: 'white' 
+                }
+              }}
+              inputProps={{
+                style: {
+                  color: 'white' 
+                }
+              }} className='w-8/12'/>
+            </div>
+
+            <button className='bg-orange-500 w-40 h-10 flex justify-center items-center rounded-lg mt-5' >Send Message</button>          
+            
+          </div>
         </div>
     </div>
     </>
