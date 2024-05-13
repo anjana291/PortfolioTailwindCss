@@ -89,7 +89,7 @@ function Contact() {
               }} className='w-8/12'/>
             </div>
 
-            <button className='bg-orange-500 w-40 h-10 flex justify-center items-center rounded-lg mt-5' >Send Message</button>          
+            <button className='bg-orange-500 w-40 h-10 flex justify-center items-center rounded-lg mt-5 text-white' >Send Message</button>          
             
           </div>
         </div>
