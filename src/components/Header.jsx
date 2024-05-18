@@ -10,10 +10,10 @@ function Header() {
         </div>
         <div className='flex'>
             <ul  className='flex list'>
-              <li class="mr-9 content-center text-2xl hover:text-orange-500"><a href='/'>Home</a></li>
-              <li class="mr-9 content-center text-2xl hover:text-orange-500"><a href='#skill'>Skills</a></li>
-              <li class="mr-9 content-center text-2xl hover:text-orange-500"><a href='#portfolio'>Projects</a></li>
-              <li class="mr-4 content-center text-2xl hover:text-orange-500"><a href='#contact'>Contact</a></li>
+              <li class="mr-9 content-center text-xl hover:text-orange-500"><a href='/'>Home</a></li>
+              <li class="mr-9 content-center text-xl hover:text-orange-500"><a href='#skill'>Skills</a></li>
+              <li class="mr-9 content-center text-xl hover:text-orange-500"><a href='#portfolio'>Projects</a></li>
+              <li class="mr-4 content-center text-xl hover:text-orange-500"><a href='#contact'>Contact</a></li>
             </ul>
         </div>
     </nav>

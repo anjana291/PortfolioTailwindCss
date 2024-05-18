@@ -15,7 +15,7 @@ function Portfolio() {
                 <Card.Title>Travel Website</Card.Title>
                 <div className=''>
                   <Card.Text>
-                   A Calculator using HTML, CSS and JavaScript
+                   A Travel website using HTML, CSS and JavaScript
                    </Card.Text>
                 </div>
                </Card.Body>
@@ -38,7 +38,7 @@ function Portfolio() {
               <Card.Body>
                  <Card.Title>Country Search Website</Card.Title>
                  <Card.Text>
-                  A website to search country and displays
+                  A website to search country
                  </Card.Text>
               </Card.Body>
           </Card>
@@ -49,7 +49,7 @@ function Portfolio() {
               <Card.Body>
                 <Card.Title>Weather Search Website</Card.Title>
                 <Card.Text>
-                 A Calculator using HTML, CSS and JavaScript
+                 A website that displays weather of a city done using HTML, CSS and JavaScript
                  </Card.Text>
                </Card.Body>
            </Card>
@@ -61,7 +61,7 @@ function Portfolio() {
                 <Card.Title>BMI Calculator</Card.Title>
                 <div className=''>
                   <Card.Text>
-                   A Calculator using HTML, CSS and JavaScript
+                   A Body Mass Index Calculator using React
                    </Card.Text>
                 </div>
                </Card.Body>
@@ -74,7 +74,7 @@ function Portfolio() {
                 <Card.Title>Registration Form</Card.Title>
                 <div className=''>
                   <Card.Text>
-                   A Calculator using HTML, CSS and JavaScript
+                   A Simple Registration form using React
                    </Card.Text>
                 </div>
                </Card.Body>
